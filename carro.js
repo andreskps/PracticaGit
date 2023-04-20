@@ -9,4 +9,8 @@ class carro{
     mostrar(){
         return `Hola, soy un ${this.marca} ${this.modelo} ${this.color} y tengo ${this.kilometraje} kms`;
     }
+
+    avanzar(kms){
+        this.kilometraje += kms;
+    }
 }

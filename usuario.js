@@ -21,7 +21,7 @@ class user{
         return 'Masculino';
     }
 
-    getBirthdate(){
-        return '01/01/2000';
+    getSexo(){
+        return this.getGender() == 'Masculino' ? 'Masculino' : 'Femenino';
     }
 }

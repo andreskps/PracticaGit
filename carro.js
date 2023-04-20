@@ -28,4 +28,8 @@ class carro{
     getColor(){
         return this.color;
     }
+
+    getMarca(){
+        return this.marca;
+    }
 }

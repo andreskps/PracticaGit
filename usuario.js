@@ -12,4 +12,12 @@ class user{
     getAge(){
         return 20;
     }
+
+    getGender(){
+        return 'Masculino';
+    }
+
+    getBirthdate(){
+        return '01/01/2000';
+    }
 }

@@ -20,5 +20,11 @@ class carro{
 
     getKilometraje(){
         return this.kilometraje;
+    getModelo(){
+        return this.modelo;
+    }
+
+    getColor(){
+        return this.color;
     }
 }

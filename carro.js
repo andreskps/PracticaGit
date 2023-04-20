@@ -1,9 +1,10 @@
 class carro{
-    constructor(marca, modelo, color, kilometraje){
+    constructor(marca, modelo, color, kilometraje,pais){
         this.marca = marca;
         this.modelo = modelo;
         this.color = color;
         this.kilometraje = kilometraje;
+        this.pais = pais;
     }
 
     mostrar(){
@@ -21,4 +22,9 @@ class carro{
     getColor(){
         return this.color;
     }
+
+    getPais(){
+        return this.pais;
+    }
+
 }

@@ -13,4 +13,12 @@ class carro{
     avanzar(kms){
         this.kilometraje += kms;
     }
+
+    getModelo(){
+        return this.modelo;
+    }
+
+    getColor(){
+        return this.color;
+    }
 }

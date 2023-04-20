@@ -12,4 +12,8 @@ class user{
     getAge(){
         return 20;
     }
+
+    getMayorDeEdad(){
+        return this.getAge() >= 18;
+    }
 }

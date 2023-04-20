@@ -20,6 +20,7 @@ class carro{
 
     getKilometraje(){
         return this.kilometraje;
+    }
     getModelo(){
         return this.modelo;
     }

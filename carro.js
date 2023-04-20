@@ -13,4 +13,12 @@ class carro{
     avanzar(kms){
         this.kilometraje += kms;
     }
+
+    retroceder(kms){
+        this.kilometraje -= kms;
+    }
+
+    getKilometraje(){
+        return this.kilometraje;
+    }
 }

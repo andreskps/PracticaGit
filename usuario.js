@@ -16,4 +16,12 @@ class user{
     getMayorDeEdad(){
         return this.getAge() >= 18;
     }
+
+    getGender(){
+        return 'Masculino';
+    }
+
+    getBirthdate(){
+        return '01/01/2000';
+    }
 }
